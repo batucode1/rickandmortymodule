@@ -37,7 +37,7 @@ class AppView extends StatelessWidget {
             _menuItem(context,
                 index: 2,
                 currentIndex: navigationShell.currentIndex,
-                label: 'Konumlar',
+                label: 'Konular',
                 icon: Icons.location_on),
             _menuItem(context,
                 index: 3,
