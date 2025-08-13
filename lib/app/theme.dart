@@ -11,7 +11,7 @@ class AppTheme extends ChangeNotifier {
 
   static ThemeData get lightTheme => ThemeData(
         fontFamily: 'Inter',
-        scaffoldBackgroundColor: Colors.white,
+        scaffoldBackgroundColor: Colors.white.withValues(),
         colorScheme: const ColorScheme.light(
           primary: Color(0xFF42B4CA),
           secondary: Color(0xFFD5E9ED),
